@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3D8B522-5D3D-43C3-BF46-509BD043A032}</ProjectGuid>
+    <ProjectGuid>{D33AAD43-E725-46E5-B6E5-5AB550211B28}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dziedziczenie</RootNamespace>
-    <AssemblyName>Dziedziczenie</AssemblyName>
+    <RootNamespace>MiniShop</RootNamespace>
+    <AssemblyName>MiniShop</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,24 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Figury\Figura.cs" />
-    <Compile Include="Figury\IFigura.cs" />
-    <Compile Include="Figury\IFiguraStat.cs" />
-    <Compile Include="Figury\Kwadrat.cs" />
-    <Compile Include="Figury\Okrag.cs" />
-    <Compile Include="Figury\Prostokat.cs" />
-    <Compile Include="Figury\Trojkat.cs" />
-    <Compile Include="KlasaAbstrakcyjna\AbstractProduct.cs" />
-    <Compile Include="KlasaAbstrakcyjna\Product.cs" />
-    <Compile Include="KlasaStatyczna\Utils.cs" />
-    <Compile Include="MetodyWirtualne\Animal.cs" />
-    <Compile Include="Pojazdy\IPojazd.cs" />
-    <Compile Include="Pojazdy\Pojazd.cs" />
-    <Compile Include="Pojazdy\Samochod.cs" />
-    <Compile Include="Pojazdy\SamochodElektryczny.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Przeciazanie\Wektor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
